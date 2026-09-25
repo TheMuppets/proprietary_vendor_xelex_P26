@@ -450,8 +450,6 @@ PRODUCT_PACKAGES += \
     libhydra \
     libicd_decoder \
     libimgsensorca \
-    libion_mtk \
-    libion_ulit \
     libipsec_ims_shr \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
