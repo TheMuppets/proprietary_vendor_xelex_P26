@@ -166,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
-    vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustkernel.rc \
     vendor/xelex/Q25/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xelex/Q25/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
@@ -926,7 +925,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint-service.trustkernel \
     android.hardware.thermal@2.0-service.mtk \
     camerahalserver \
