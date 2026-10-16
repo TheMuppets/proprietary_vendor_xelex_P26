@@ -871,7 +871,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.dmc@1.0 \
     vendor.mediatek.hardware.dmc@1.1 \
     vendor.mediatek.hardware.dmc@1.2 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     libmtk_vt_wrapper \
