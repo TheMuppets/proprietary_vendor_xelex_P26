@@ -294,8 +294,6 @@ PRODUCT_PACKAGES += \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
-    android.hardware.audio@6.0-impl-mediatek \
-    android.hardware.audio@7.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     audio.r_submix.mediatek \
