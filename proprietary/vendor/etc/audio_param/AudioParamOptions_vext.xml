@@ -26,7 +26,7 @@
  <Param name="MTK_FM_SUPPORT" value="" />
  <Param name="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION" value="" />
  <Param name="MTK_SUPPORT_TC1_TUNNING" value="" />
- <Param name="MTK_AUDIO_SPEAKER_PATH" value="int_lo_buf" />
+ <Param name="MTK_AUDIO_SPEAKER_PATH" value="int_hp_buf" />
  <Param name="MTK_AUDIO_NUMBER_OF_MIC" value="1" />
  <Param name="MTK_PLATFORM" value="MT6789" />
  <Param name="MTK_AURISYS_FRAMEWORK_SUPPORT" value="" />
@@ -79,7 +79,7 @@
  <Param name="KERNEL_BUFFER_SIZE_DEEP" value="32768" />
  <Param name="DPCM_DEEP_BUFFER" value="Playback_3" />
  <Param name="RCV_PATH_INT" value="yes" />
- <Param name="SPK_PATH_LO" value="yes" />
+ <Param name="SPK_PATH_HP" value="yes" />
  <Param name="CUST_XML_DIR" value="/data/vendor/audiohal/audio_param/" />
  <Param name="5_POLE_HS_SUPPORT" value="" />
  <Param name="VIR_MTK_USB_PHONECALL" value="yes" />

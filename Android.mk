@@ -4,17 +4,17 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Q25)
+ifeq ($(TARGET_DEVICE),P26)
 
-$(call add-radio-file-sha1-checked,radio/dpm.img,90d9e6b8e9d94e6262d803fd100fca4577d9873c)
-$(call add-radio-file-sha1-checked,radio/gz.img,532bf67a381ef78cb4811fcf85407d0edad7a361)
-$(call add-radio-file-sha1-checked,radio/lk.img,d00935860bd541b438ea7afb9d64ef7fb9b127bf)
-$(call add-radio-file-sha1-checked,radio/mcupm.img,90e244ea1974d49e168dfa7e9ecdcf8a4ce8db47)
-$(call add-radio-file-sha1-checked,radio/md1img.img,befdf01aa8617c88a9462426e1a9f7a5eecd80b7)
-$(call add-radio-file-sha1-checked,radio/pi_img.img,f8dd728e5753165f090a7727d3f2d65a19a5af6f)
-$(call add-radio-file-sha1-checked,radio/scp.img,795161fe1d663a498e3ebbaa2b3eee8ee4c2eac9)
-$(call add-radio-file-sha1-checked,radio/spmfw.img,94615ebe599d2f992f4d256e0fa43d299b7e0b9b)
-$(call add-radio-file-sha1-checked,radio/sspm.img,167a82519bbd37231f272865669f668566fcc0da)
-$(call add-radio-file-sha1-checked,radio/tee.img,52d6d720b2e2ba390c403b9a0bf2c1decbabdca7)
+$(call add-radio-file-sha1-checked,radio/dpm.img,c08139d07cd97d5ad7d4716001c97274b06b0ff5)
+$(call add-radio-file-sha1-checked,radio/gz.img,ef19171cc0ef58e5804880ea5e711c3a4f07f1bb)
+$(call add-radio-file-sha1-checked,radio/lk.img,f4a2c095aae8ec0d27b65d6a9a13466a219f73e7)
+$(call add-radio-file-sha1-checked,radio/mcupm.img,05e78b405048730f54086643b5bd2a5dfd522f6d)
+$(call add-radio-file-sha1-checked,radio/md1img.img,6f54dae8ff9c6390b9ffa7fff9fe167f7c0de332)
+$(call add-radio-file-sha1-checked,radio/pi_img.img,b43d1b5c9c0fca5529f06a874637bb2aaf6a5d17)
+$(call add-radio-file-sha1-checked,radio/scp.img,baa11d716e308406f9d935d39680833a8910a7f7)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,0ed43d2007a1cdeaf09ac6a0007ae01c28e07331)
+$(call add-radio-file-sha1-checked,radio/sspm.img,1b12d5fb47b66eabd27ef3cebf076c8c87e2086f)
+$(call add-radio-file-sha1-checked,radio/tee.img,6db27ebdfba34850fc3ad53538c39d970de1714d)
 
 endif
